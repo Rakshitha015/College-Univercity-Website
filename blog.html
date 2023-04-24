@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta name="viewport" content="with=device-width,initial-scale=1.0"> <!--to make more responsive-->
+        <title>Website Design</title>
+        <link rel="stylesheet" href="web.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,800;1,100;1,200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id = "navlinks">
+                    <i class="fa fa-times"onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="index2.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Programs For 2023</h1>
+
+        </section>
+        <!----------------blog section  ---------->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="certificate.jpg" >
+                    <h2>Our Certificate & Online Programs For 2023</h2>
+                    <p>An SSL certificate is a digital certificate that
+                         authenticates a website's identity and enables
+                          an encrypted connection. SSL stands for Secure
+                           Sockets Layer, a security protocol that creates
+                         an encrypted 
+                        link between a web server and a web browser.</p>
+                        <br>
+                        <p>
+                            Since its inception about 25 years ago, 
+                            there have been several versions of SSL 
+                            protocol, all of which at some point ran 
+                            into security troubles. A revamped and renamed
+                             version followed — TLS (Transport Layer Security), which is still in use today. However, the initials SSL stuck, so the new version of the protocol is still usually called by the old name.  
+                        </p>
+                        <br>
+                        <p>
+                            SSL works by ensuring that any data transferred 
+                            between users and websites, or between two 
+                            systems, remains impossible to read. It uses 
+                            encryption algorithms to scramble data in 
+                            transit, which prevents hackers from reading 
+                            it as it is sent over the connection. 
+                        </p>
+                        <br>
+                        <p>
+                            This data includes potentially sensitive 
+                            information such as names, addresses, credit
+                             card numbers, or other financial details.
+                        </p>
+
+                        <div class="comment-box">
+                            <h3>Leave a Comment</h3>
+                            <form class="comment-form">
+                                <input type = "text" placeholder="Enter a Name">
+                                <input type="text" placeholder="enter email">
+                                <textarea rows="5" placeholder="type comment"></textarea>
+                                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+
+                            </form>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="blog-right">
+                        <h3>Post Categories</h3>
+                        <div>
+                            <span>Business Analytics</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Data Science</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Machine Learning</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Computer Science</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Auto CAD</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Jouornalism</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Commerse</span>
+                            <span>21</span>
+                        </div>
+
+
+                    </div>
+
+            </div>
+
+
+        </section>
+
+       
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>hguyt hggu loreum rakshitha ravindra sumathi 
+        sushan bjg hjh appa amma fhhu bjh
+        nbvjh jkhgi fkjhgiufy</p>
+        <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i>by easy tutorial</p>         
+
+    </section>
+
+
+        <!--javascript for toggle menu-->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right = "0";
+            }
+            function hideMenu(){
+                navlinks.style.right = "-200px";
+            }
+       
+        </script>
+
+    </body>
+</html>
